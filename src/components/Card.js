@@ -1,8 +1,8 @@
 import React from 'react'
-import github from './icons/github.png';
-import linkedin from './icons/linkedin.png';
-import email from './icons/email.png';
-import profile from './icons/profile.jpg';
+import github from './icons/github.webp';
+import linkedin from './icons/linkedin.webp';
+import email from './icons/email.webp';
+import profile from './icons/profile.webp';
 
 export const Card = () => {
     return (
