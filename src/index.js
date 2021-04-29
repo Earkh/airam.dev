@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+import './index.css';
+import './background.scss';
 import {Card} from './components/Card';
 import reportWebVitals from './reportWebVitals';
 
