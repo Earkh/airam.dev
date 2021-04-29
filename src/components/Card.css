@@ -2,28 +2,55 @@
     background-color: #fff;
     color: #282a2c;
     min-width: 50vw;
-    min-height: 30vh;
+    max-width: 90vw;
+    min-height: 25vh;
     padding: 1em;
     border-radius: .25em;
     display: grid;
-    grid-template-rows: repeat(3, 10vh);
+    grid-template-rows: 1vh 10vh 10vh 10vh;
+}
+
+#profile {
+    height: 15vh;
+    border-radius: 50%;
+    margin-top: -4.5em;
 }
 
 #card div{
+    max-width: 80vw;
     display: flex;
     justify-content: space-around;
     align-content: center;
+}
+
+div h1 {
+    align-self: end;
+}
+
+div h2 {
+    align-self: center;
 }
 
 #socialMedia {
-    grid-row: 3/4;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
+    justify-self: center;
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
 }
 
 #socialMedia a{
+    max-width: 15%;
     display: inline-flex;
     justify-content: center;
+    align-items: center;
+}
+
+#socialMedia a img {
+    width: auto;
+    height: 90%;
+}
+
+#socialMedia a :hover {
+    width: auto;
+    height: 100%;
 }
